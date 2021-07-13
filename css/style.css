@@ -116,6 +116,7 @@ nav{
 }
 .section-title h2{
     margin-bottom: 10px;
+    font-size: 28px;
 }
 .section-intro p{
     color: #7A7A7A;
@@ -147,4 +148,193 @@ nav{
     margin: 5px 0;
     font-size: 14px;
     color: #7A7A7A;
+}
+
+/* Promotion Section style */
+.promotion{
+    background: url(../Assets/images/cta-bg.jpg);
+    text-align: center;
+    padding: 120px 0;
+    background-size: cover;
+    background-position: center center;
+    color: #FFFFFF;
+}
+.promotion .section-title h2{
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+.promotion .intro{
+    padding: 0 200px;
+    margin-bottom: 20px;
+}
+
+/* Our Classes Section style */
+.our-classes{
+    padding: 50px 0;
+}
+.training-classes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.schedule-classes{
+    width: 32%;
+    margin-right: 3%;
+}
+.schedule-classes ul li{
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    padding: 25px 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.schedule-classes ul li:last-child{
+    background-color: #ED563B;
+}
+.schedule-classes ul li:last-child a{
+    color: #FFFFFF;
+}
+.class a{
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #232d39;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.class img{
+    margin: 0  10px;
+}
+.demo-class{
+    width: 65%;
+}
+.demo-class img{
+    width: 100%;
+    border-radius: 5px;
+}
+.demo-class p{
+    color: #7a7a7a;
+}
+
+/* Schedule Section Style Here */
+.schedule{
+    background: url(../Assets/images/schedule-bg.jpg);
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.schedule .section-title{
+    color: #FFFFFF;
+}
+.schedule .section-intro p{
+    color: #FFFFFF;
+}
+.schedule-days{
+    text-align: center;
+}
+.schedule-days ul li a{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.schedule-table table{
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.table-cell{
+    height: 100px;
+    border: 1px solid #ddd;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+.trainer{
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.trainer .article-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.trainer article{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    padding: 40px;
+    width: 25%;
+}
+.trainer article .feature-image img{
+    width: 100%;
+}
+.designation{
+    margin-top: 10px;
+}
+.trainer-name h3{
+    margin: 5px 0;
+}
+.share-icons ul{
+    padding: 0;
+}
+.share-icons ul li {
+    margin-right: 12px;
+}
+.share-icons ul li a{
+    color: #232d39;
+    transition: all .3s;
+}
+
+/* Contact Section Style Here */
+.contact-section{
+    display: flex;
+}
+.map{
+    width: 50%;
+}
+.form-area{
+    background: url(../Assets/images/contact-bg.jpg);
+    background-size: cover;
+    width: 50%;
+}
+.contact-form{
+    background-color: #fff;
+    margin: 100px 60px;
+    border-radius: 5px;
+}
+.contact-form form{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.name-email-field{
+    display: flex;
+    justify-content: space-between;
+}
+.name, .email{
+    width: 45%;
+}
+.contact-form form input, .contact-form form textarea{
+    color: #7a7a7a;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    line-height: 40px;
+    padding: 0 10px;
+    margin-bottom: 30px;
+}
+.contact-form form .btn{
+    width: 30%;
+    background: #ED563B;
+    color: #FFFFFF;
+}
+
+footer .copyright p{
+    text-align: center;
 }
