@@ -6,6 +6,12 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+::selection{
+    background-color: #ED563B;
+}
+span::selection{
+    background-color: #ED563B;
+}
 ul{
     list-style: none;
 }
@@ -72,6 +78,15 @@ nav{
 }
 .nav-area ul li a{
     color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.nav-area ul li.active a{
+    color: #ED563B;
+}
+.nav-area ul li:hover a{
+    color: #ED563B;
+    transition: all 0.6s ease;
 }
 .header-banner{
     position: absolute;
@@ -102,10 +117,16 @@ nav{
     color: #FFFFFF;
     letter-spacing: 0.5px;
 }
+
 .btn{
     background: #ED563B;
     color: #FFFFFF;
-    padding: 10px 30px;
+    padding: 16px 30px;
+    font-size: 20px;
+}
+.btn:hover{
+    background: #ed563bd8;
+    transition: all o.3s ease;
 }
 
 /* Choose Program Section */
