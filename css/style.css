@@ -338,3 +338,85 @@ nav{
 footer .copyright p{
     text-align: center;
 }
+
+/* Responsive Code Here */
+/* Mobile Device */
+@media only screen and (max-width:425px) {
+    .form-area, .map{
+        width: 100%;
+    }
+    .main-nav{
+        flex-direction: column;
+    }
+    .logo-area, .nav-area{
+        width: 100%;
+    }
+    .logo-area h1 a{
+        font-size: 14px;
+        display: inline-block;
+        text-align: center;
+    }
+    .nav-area ul{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .bg-video, .banner-content, .header-banner{
+        min-height: 120vh;
+    }
+    .banner-content{
+        padding-top: 120px;
+    }
+    .nav-area ul li{
+        padding: 0;
+    }
+    .banner-content .top-title h3{
+        font-size: 14px;
+        margin: 0;
+    }
+    .banner-content .main-title h1{
+        font-size: 24px;
+    }
+    .section-intro p{
+        padding: 0;
+    }
+    .programs-list{
+        grid-template-columns: 1fr;
+    }
+    .program{
+        flex-direction: column;
+        align-items: center;
+    }
+    .program .program-img img{
+        width: 100%;
+        align-self: flex-start;
+    }
+    .program-details{
+        width: 100%;
+    }
+    .training-classes{
+        flex-direction: column;
+    }
+    .schedule-classes , .demo-class{
+        width: 100%;
+    }
+    .schedule-classes ul{
+        padding: 0;
+    }
+    .table-cell{
+        font-size: 12px;
+    }
+    .trainer article{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .name-email-field{
+        flex-direction: column;
+    }
+    .name , .email{
+        width: 100%;
+    }
+    .contact-form form .btn{
+        width: 100%;
+    }
+}
