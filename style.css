@@ -153,7 +153,7 @@ nav{
 
 /* Promotion Section style */
 .promotion{
-    background: url(../Assets/images/cta-bg.jpg);
+    background: linear-gradient( rgba(35,45,57,0.8), rgba(35,45,57,0.8)), url(./Assets/images/cta-bg.jpg);
     text-align: center;
     padding: 120px 0;
     background-size: cover;
@@ -222,7 +222,7 @@ nav{
 
 /* Schedule Section Style Here */
 .schedule{
-    background: url(../Assets/images/schedule-bg.jpg);
+    background: linear-gradient( rgba(35,45,57,0.8), rgba(35,45,57,0.8)), url(./Assets/images/schedule-bg.jpg);
     background-size: cover;
     padding-top: 40px;
     padding-bottom: 80px;
@@ -297,7 +297,7 @@ nav{
     width: 50%;
 }
 .form-area{
-    background: url(../Assets/images/contact-bg.jpg);
+    background: linear-gradient( rgba(35,45,57,0.8), rgba(35,45,57,0.8)), url(./Assets/images/contact-bg.jpg);
     background-size: cover;
     width: 50%;
 }
